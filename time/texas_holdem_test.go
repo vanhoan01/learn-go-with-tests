@@ -2,9 +2,10 @@ package poker_test
 
 import (
 	"fmt"
-	"github.com/quii/learn-go-with-tests/time/v3"
 	"testing"
 	"time"
+
+	poker "github.com/vanhoan01/learn-go-with-tests/time"
 )
 
 func TestGame_Start(t *testing.T) {

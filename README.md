@@ -34,9 +34,8 @@ curl -X POST http://localhost:5000/players/Himmel
 curl http://localhost:5000/league
 
 # command-line (Command line & package structure)
-go get github.com/quii/learn-go-with-tests/command-line/v3
-    github.com/vanhoan01/learn-go-with-tests/command-line
-go test
+go get github.com/vanhoan01/learn-go-with-tests/command-line
+go test -v
 
 cd .\cmd\webserver\
 go run main.go
@@ -58,6 +57,10 @@ curl http://localhost:5000/league
 
 Visit http://localhost:5000/league
 and file game.db.json
+
+# Time
+Test the same as command-line
+
 # more info
 https://pkg.go.dev/fmt
 pwsh> $env:CGO_ENABLED=1; go test -race
