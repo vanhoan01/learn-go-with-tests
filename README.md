@@ -34,7 +34,7 @@ curl -X POST http://localhost:5000/players/Himmel
 curl http://localhost:5000/league
 
 # command-line (Command line & package structure)
-go get github.com/vanhoan01/learn-go-with-tests/command-line
+go get github.com/vanhoan01/learn-go-with-tests [/command-line]
 go test -v
 
 cd .\cmd\webserver\
@@ -59,6 +59,11 @@ Visit http://localhost:5000/league
 and file game.db.json
 
 # Time
+Test the same as command-line
+
+# WebSocket
+go get github.com/gorilla/websocket
+Visit http://localhost:5000/game
 Test the same as command-line
 
 # more info
